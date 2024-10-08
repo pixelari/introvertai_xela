@@ -1,0 +1,168 @@
+{
+  "message_id": 1252939338908565555,
+  "head": {
+    "embeds": [
+      {
+        "title": "Labas, kas esi?",
+        "description": "🟡 Vilnius\n🟢 Kaunas\n🔴 Klaipėda\n🔵 Šiauliai\n🟣 Panevėžys\n🟠 Kita\n⚪ Svetur",
+        "color": "#00b0f4",
+        "footer": {
+          "text": "Lietuvos Introvertai N20",
+          "icon_url": "https://i.postimg.cc/RFMPskXN/53107e322a461a113a0fc21f49fd9189-removebg-preview.png"
+        }
+      }
+    ],
+    "components": [
+      {
+        "type": "button",
+        "custom_id": "vilnius",
+        "emoji": "🟡"
+      },
+      {
+        "type": "button",
+        "custom_id": "kaunas",
+        "emoji": "🟢"
+      },
+      {
+        "type": "button",
+        "custom_id": "klaipeda",
+        "emoji": "🔴"
+      },
+      {
+        "type": "button",
+        "custom_id": "siauliai",
+        "emoji": "🔵"
+      },
+      {
+        "type": "button",
+        "custom_id": "panevezys",
+        "emoji": "🟣"
+      },
+      {
+        "type": "button",
+        "custom_id": "kita",
+        "emoji": "🟠"
+      },
+      {
+        "type": "button",
+        "custom_id": "svetur",
+        "emoji": "⚪"
+      }
+    ]
+  },
+  "body": {
+    "vilnius": {
+      "content": "Done!",
+      "remove_rest": true,
+      "actions": {
+        "add_roles": [
+          973141421135634432
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141533329096704,
+          973141766679195658,
+          973141823277117490,
+          973142116526084096,
+          973142086872358912
+        ]
+      }
+    },
+    "kaunas": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973141491037913138
+        ],
+        "remove_roles": [
+          973141533329096704,
+          973141766679195658,
+          973141823277117490,
+          973142116526084096,
+          973142086872358912,
+          973141421135634432
+        ]
+      }
+    },
+    "klaipeda": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973141533329096704
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141766679195658,
+          973141823277117490,
+          973142116526084096,
+          973142086872358912,
+          973141421135634432
+        ]
+      }
+    },
+    "siauliai": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973141766679195658
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141533329096704,
+          973141823277117490,
+          973142116526084096,
+          973142086872358912,
+          973141421135634432
+        ]
+      }
+    },
+    "panevezys": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973141823277117490
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141533329096704,
+          973141766679195658,
+          973142116526084096,
+          973142086872358912,
+          973141421135634432
+        ]
+      }
+    },
+    "kita": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973142086872358912
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141533329096704,
+          973141766679195658,
+          973141823277117490,
+          973142116526084096,
+          973141421135634432
+        ]
+      }
+    },
+    "svetur": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973142116526084096
+        ],
+        "remove_roles": [
+          973141491037913138,
+          973141533329096704,
+          973141766679195658,
+          973141823277117490,
+          973142086872358912,
+          973141421135634432
+        ]
+      }
+    }
+  }
+}

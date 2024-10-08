@@ -1,0 +1,164 @@
+{
+  "message_id": 1252946503593496690,
+  "head": {
+    "embeds": [
+      {
+        "title": "Pasirink savo hobius, susirask bendraminčių, diskutuok!",
+        "description": "🟡 Auto/Moto\n🟢 Kelionės\n🔴 Maistas\n🟠 Knygos\n🔵 Gyvūnai\n🟣 Video/Stalo Žaidimai\n🟤 Sportas\n⚫ Rankdarbiai\n⚪ Menas\n⭕ Kinas\nⓂ️ Muzika",
+        "color": "#00b0f4",
+        "footer": {
+          "text": "Lietuvos Introvertai N20",
+          "icon_url": "https://i.postimg.cc/RFMPskXN/53107e322a461a113a0fc21f49fd9189-removebg-preview.png"
+        }
+      }
+    ],
+    "components": [
+      {
+        "type": "button",
+        "custom_id": "auto",
+        "emoji": "🟡"
+      },
+      {
+        "type": "button",
+        "custom_id": "keliones",
+        "emoji": "🟢"
+      },
+      {
+        "type": "button",
+        "custom_id": "maistas",
+        "emoji": "🔴"
+      },
+      {
+        "type": "button",
+        "custom_id": "knygos",
+        "emoji": "🟠"
+      },
+      {
+        "type": "button",
+        "custom_id": "gyvunai",
+        "emoji": "🔵"
+      },
+      {
+        "type": "button",
+        "custom_id": "games",
+        "emoji": "🟣"
+      },
+      {
+        "type": "button",
+        "custom_id": "sportas",
+        "emoji": "🟤"
+      },
+      {
+        "type": "button",
+        "custom_id": "rankdarbiai",
+        "emoji": "⚫"
+      },
+      {
+        "type": "button",
+        "custom_id": "menas",
+        "emoji": "⚪"
+      },
+      {
+        "type": "button",
+        "custom_id": "kinas",
+        "emoji": "⭕"
+      },
+      {
+        "type": "button",
+        "custom_id": "muzika",
+        "emoji": "Ⓜ️"
+      }
+    ]
+  },
+  "body": {
+    "auto": {
+      "content": "Done!",
+      "remove_rest": true,
+      "actions": {
+        "add_roles": [
+          1005756586301595699
+        ]
+      }
+    },
+    "keliones": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144375032971274
+        ]
+      }
+    },
+    "maistas": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973143922727600159
+        ]
+      }
+    },
+    "knygos": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144118949720085
+        ]
+      }
+    },
+    "gyvunai": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144281906806814
+        ]
+      }
+    },
+    "games": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144314823716905
+        ]
+      }
+    },
+    "sportas": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144409522724884
+        ]
+      }
+    },
+    "rankdarbiai": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144656135213106
+        ]
+      }
+    },
+    "menas": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973144752306413628
+        ]
+      }
+    },
+    "kinas": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          973147369032024084
+        ]
+      }
+    },
+    "muzika": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005760502028312606
+        ]
+      }
+    }
+  }
+}

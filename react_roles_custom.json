@@ -1,0 +1,86 @@
+{
+  "message_id": 1252949939307286558,
+  "head": {
+    "embeds": [
+      {
+        "title": "Yra keletas custom rolių, jeigu domina - pasirink!",
+        "description": "🟡 News - jeigu nori @mention, kai paskelbiame serveriui aktualias naujienas\n🟢 Politika - jeigu nori prisijungti į diskusijų kanalą apie politiką\n🔴 N18 - jeigu nori pasijungti į N18 kanalą, kur beveik nėra filtro contentui:KEKW:\n🔵 Voice - jeigu nori gaut @mention, kai pradedam rinktis į Voice pablevyzgoti\n🟠 Knygų Klubas - jeigu nori dalyvauti serverio knygų klubo veikloje, skaitome knygą ir aptariame mėnesio gale",
+        "color": "#00b0f4",
+        "footer": {
+          "text": "Lietuvos Introvertai N20",
+          "icon_url": "https://i.postimg.cc/RFMPskXN/53107e322a461a113a0fc21f49fd9189-removebg-preview.png"
+        }
+      }
+    ],
+    "components": [
+      {
+        "type": "button",
+        "custom_id": "news",
+        "emoji": "🟡"
+      },
+      {
+        "type": "button",
+        "custom_id": "politika",
+        "emoji": "🟢"
+      },
+      {
+        "type": "button",
+        "custom_id": "n18",
+        "emoji": "🔴"
+      },
+      {
+        "type": "button",
+        "custom_id": "voice",
+        "emoji": "🔵"
+      },
+      {
+        "type": "button",
+        "custom_id": "knygos",
+        "emoji": "🟠"
+      }
+    ]
+  },
+  "body": {
+    "news": {
+      "content": "Done!",
+      "remove_rest": true,
+      "actions": {
+        "add_roles": [
+          974781439700779018
+        ]
+      }
+    },
+    "politika": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          974605503252529172
+        ]
+      }
+    },
+    "n18": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          976782427928293436
+        ]
+      }
+    },
+    "voice": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          996353908383416340
+        ]
+      }
+    },
+    "knygos": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005783422783979550
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "message_id": 1252939085304299600,
+  "head": {
+    "embeds": [
+      {
+        "title": "Tavo Amžiaus Grupė",
+        "description": "Pasirink amžiaus grupę, kad visiems būtų lengviau bendrauti. Nesijaudinkite, pagal amžių nieko neskirstom ir nediskriminuojame!\n🟡 20-24\n🟢 25-29\n🔴 30-34\n🟠 35-39\n🔵 40-44\n🟣 >=45",
+        "color": "#00b0f4",
+        "footer": {
+          "text": "Lietuvos Introvertai N20",
+          "icon_url": "https://i.postimg.cc/RFMPskXN/53107e322a461a113a0fc21f49fd9189-removebg-preview.png"
+        }
+      }
+    ],
+    "components": [
+      {
+        "type": "button",
+        "custom_id": "20_24",
+        "emoji": "🟡"
+      },
+      {
+        "type": "button",
+        "custom_id": "25_29",
+        "emoji": "🟢"
+      },
+      {
+        "type": "button",
+        "custom_id": "30_34",
+        "emoji": "🔴"
+      },
+      {
+        "type": "button",
+        "custom_id": "35_39",
+        "emoji": "🟠"
+      },
+      {
+        "type": "button",
+        "custom_id": "40_44",
+        "emoji": "🔵"
+      },
+      {
+        "type": "button",
+        "custom_id": ">=45",
+        "emoji": "🟣"
+      }
+    ]
+  },
+  "body": {
+    "20_24": {
+      "content": "Done!",
+      "remove_rest": true,
+      "actions": {
+        "add_roles": [
+          1005079824617971792
+        ],
+        "remove_roles": [
+          1005080111223148676,
+          1005080187689513041,
+          1005080688430694401,
+          1005080880294920204,
+          1005081122654396498
+        ]
+      }
+    },
+    "25_29": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005080111223148676
+        ],
+        "remove_roles": [
+          1005080187689513041,
+          1005080688430694401,
+          1005080880294920204,
+          1005081122654396498,
+          1005079824617971792
+        ]
+      }
+    },
+    "30_34": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005080187689513041
+        ],
+        "remove_roles": [
+          1005080111223148676,
+          1005080688430694401,
+          1005080880294920204,
+          1005081122654396498,
+          1005079824617971792
+        ]
+      }
+    },
+    "35_39": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005080688430694401
+        ],
+        "remove_roles": [
+          1005080111223148676,
+          1005080187689513041,
+          1005080880294920204,
+          1005081122654396498,
+          1005079824617971792
+        ]
+      }
+    },
+    "40_44": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005080880294920204
+        ],
+        "remove_roles": [
+          1005080111223148676,
+          1005080187689513041,
+          1005080688430694401,
+          1005081122654396498,
+          1005079824617971792
+        ]
+      }
+    },
+    ">=45": {
+      "content": "Done!",
+      "actions": {
+        "add_roles": [
+          1005081122654396498
+        ],
+        "remove_roles": [
+          1005080111223148676,
+          1005080187689513041,
+          1005080688430694401,
+          1005080880294920204,
+          1005079824617971792
+        ]
+      }
+    }
+  }
+}
